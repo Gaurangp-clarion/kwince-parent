@@ -13,7 +13,7 @@
 	<packaging>pom</packaging>
 	<name>kwince :: parent</name>
 	<description>kwince parent pom</description>
-	<url>http://github.com/kwince/osemManager</url>
+	<url>http://github.com/kwince/kwince-parent</url>
 	<inceptionYear>2012</inceptionYear>
 
 	<licenses>
@@ -30,7 +30,7 @@
 
 	<developers>
 		<developer>
-			<id>gearondk</id>
+			<id>gearond</id>
 			<name>Dennis Gearond</name>
 			<timezone>-8</timezone>
 		</developer>
