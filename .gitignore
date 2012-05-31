@@ -1,0 +1,11 @@
+.project
+.classpath
+.settings/
+
+src/
+bin/
+target/
+
+release.properties
+pom.xml.releaseBackup
+test.properties

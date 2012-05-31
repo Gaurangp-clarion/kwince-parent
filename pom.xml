@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+	<groupId>com.kwince</groupId>
+	<artifactId>kwince-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>kwince :: parent</name>
+	<description>kwince parent pom</description>
+	<url>http://github.com/kwince/osemManager</url>
+	<inceptionYear>2012</inceptionYear>
+
+	<licenses>
+		<license>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<name>Apache 2.0</name>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>kwince</name>
+		<url>http://kwince.com</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>gearondk</id>
+			<name>Dennis Gearond</name>
+			<timezone>-8</timezone>
+		</developer>
+		<developer>
+			<id>aldrinleal</id>
+			<name>Aldrin Leal</name>
+			<timezone>-3</timezone>
+		</developer>
+	</developers>
+
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/kwince-parent/kwince-parent/issues</url>
+	</issueManagement>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<scm>
+		<connection>scm:git:git@github.com:kwince/kwince-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:kwince/kwince-parent.git</developerConnection>
+		<url>scm:git:git@github.com:kwince/kwince-parent.git</url>
+	</scm>
+</project>
